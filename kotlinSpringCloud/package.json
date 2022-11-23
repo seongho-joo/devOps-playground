@@ -1,8 +1,8 @@
 {
-  "name": "kotlin_spring_clound",
+  "name": "kotlin-spring-cloud",
   "version": "0.1.0",
   "bin": {
-    "kotlin_spring_clound": "bin/kotlin_spring_clound.js"
+    "kotlin-spring-cloud": "bin/kotlin-spring-cloud.js"
   },
   "scripts": {
     "build": "tsc",

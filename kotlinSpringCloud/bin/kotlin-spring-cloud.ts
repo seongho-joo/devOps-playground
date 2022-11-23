@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
-import { KotlinSpringCloundStack } from '../lib/kotlin_spring_clound-stack';
+import { KotlinSpringCloudStack } from '../lib/kotlin-spring-cloud-stack';
 
 const app = new cdk.App();
-new KotlinSpringCloundStack(app, 'KotlinSpringCloundStack', {
+new KotlinSpringCloudStack(app, 'KotlinSpringCloudStack', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */
